@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'myBlockbit';
+    src: url('blockbit/blockbit.ttf') format('truetype');
+}
+
+body {
+    font-family: 'myBlockbit', sans-serif;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 700px;
+}
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h1 {
+    font-size: 2em;
+}
+/*button choice*/
+#choicebtn button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 4px rgba(236, 58, 153, 0.423) solid;
+    background-color: rgba(246, 174, 218, 0.219);
+    font-family: "myBlockbit", sans-serif;
+    border-radius: 10px;
+}
+.results {
+    font-size: 22px;
+}
